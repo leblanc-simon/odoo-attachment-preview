@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="attachment_preview assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <link href="/attachment_preview/static/vendor/touchtouch/touchTouch.css" rel="stylesheet" />
+                <script type="text/javascript" src="/attachment_preview/static/vendor/touchtouch/touchTouch.jquery.js"></script>
+                <script type="text/javascript" src="/attachment_preview/static/vendor/pdfjs/pdf.js"></script>
+                <script type="text/javascript" src="/attachment_preview/static/src/js/attachment_preview.js"></script>
+            </xpath>
+        </template>
+    </data>
+</openerp>
