@@ -68,7 +68,7 @@ openerp.attachment_preview = function(instance) {
             var pdf_regex = new RegExp('\\.pdf$', 'i');
             var ppt_regex = new RegExp('\\.pptx?$', 'i');
             var main_div_id = 'attachment_preview';
-            var main_div = '<div id="' + main_div_id + '" class="oe_form_sheet" style="margin-top:16px">' +
+            var main_div = '<div id="' + main_div_id + '" class="oe_form_sheet o_form_sheet" style="margin-top:16px">' +
                                 '<div class="oe_horizontal_separator oe_clear">Pièce(s) jointe(s)</div>' +
                                 '<div class="container-preview"></div>' +
                             '</div>';
@@ -88,7 +88,7 @@ openerp.attachment_preview = function(instance) {
             }
 
             if ($main_div.length === 0) {
-                $('.oe_form_sheetbg').append(main_div);
+                $('.oe_form_sheetbg, .o_form_sheet_bg').append(main_div);
                 $main_div = $('#' + main_div_id);
             }
 

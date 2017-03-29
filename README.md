@@ -18,7 +18,7 @@ Reload modules in Odoo and install it.
 
 ## Compatibility
 
-**This module is tested only with Odoo 8**
+**This module is tested only with Odoo 8 and Odoo 10**
 
 ## License
 
