@@ -20,6 +20,11 @@ Reload modules in Odoo and install it.
 
 **This module is tested only with Odoo 8 and Odoo 10**
 
+## Preview
+
+![attachments list](https://www.leblanc-simon.fr/github/odoo-attachment-preview1.png)
+![preview attachment](https://www.leblanc-simon.fr/github/odoo-attachment-preview2.png)
+
 ## License
 
 AGPL v3
