@@ -69,7 +69,7 @@ openerp.attachment_preview = function(instance) {
             var ppt_regex = new RegExp('\\.pptx?$', 'i');
             var main_div_id = 'attachment_preview';
             var main_div = '<div id="' + main_div_id + '" class="oe_form_sheet o_form_sheet" style="margin-top:16px">' +
-                                '<div class="oe_horizontal_separator oe_clear">Pièce(s) jointe(s)</div>' +
+                                '<div class="oe_horizontal_separator o_horizontal_separator oe_clear">Pièce(s) jointe(s)</div>' +
                                 '<div class="container-preview"></div>' +
                             '</div>';
             var a_preview_tpl = '<a href="%download%" style="display:inline-block; text-align:center; margin-right:15px; margin-bottom:20px">' + 
