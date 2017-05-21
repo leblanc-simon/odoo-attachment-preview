@@ -68,16 +68,16 @@ openerp.attachment_preview = function(instance) {
             var pdf_regex = new RegExp('\\.pdf$', 'i');
             var ppt_regex = new RegExp('\\.pptx?$', 'i');
             var main_div_id = 'attachment_preview';
-            var main_div = '<div id="' + main_div_id + '" class="oe_form_sheet o_form_sheet" style="margin-top:16px">' +
+            var main_div = '<div id="' + main_div_id + '" class="oe_form_sheet o_form_sheet">' +
                                 '<div class="oe_horizontal_separator o_horizontal_separator oe_clear">Pièce(s) jointe(s)</div>' +
                                 '<div class="container-preview"></div>' +
                             '</div>';
-            var a_preview_tpl = '<a href="%download%" style="display:inline-block; text-align:center; margin-right:15px; margin-bottom:20px">' + 
-                                    '<img src="%img%" %img-box% height="200px" style="border: 1px solid #c8c8d3" />' + 
-                                    '<div>%name%</div>' + 
+            var a_preview_tpl = '<a href="%download%">' +
+                                    '<img src="%img%" %img-box% />' +
+                                    '<div>%name%</div>' +
                                 '</a>';
-            var div_preview_tpl = '<div class="attachment-preview-item" id="attachment-preview-item-%id%" style="display:inline">' + 
-                                    a_preview_tpl + 
+            var div_preview_tpl = '<div class="attachment-preview-item" id="attachment-preview-item-%id%">' +
+                                    a_preview_tpl +
                                   '</div>';
 
             var $main_div = $('#' + main_div_id);

@@ -1,0 +1,20 @@
+#attachment_preview {
+    margin-top:16px;
+}
+
+#attachment_preview .attachment-preview-item {
+    display: inline;
+}
+
+#attachment_preview .attachment-preview-item > a {
+    display:inline-block;
+    text-align:center;
+    margin-right:15px;
+    margin-bottom:20px;
+}
+
+#attachment_preview .attachment-preview-item > a > img {
+    border: 1px solid #c8c8d3;
+    height: 200px;
+    max-width: 100%;
+}
