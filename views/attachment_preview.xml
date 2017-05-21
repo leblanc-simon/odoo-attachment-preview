@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openerp>
     <data>
-        <template id="assets_backend" name="attachment_preview assets" inherit_id="web.assets_backend">
+        <template id="assets_backend_attachment_preview" name="attachment_preview assets" inherit_id="web.assets_backend">
             <xpath expr="." position="inside">
                 <link href="/attachment_preview/static/src/css/attachment_preview.css" rel="stylesheet" />
                 <link href="/attachment_preview/static/vendor/touchtouch/touchTouch.css" rel="stylesheet" />
